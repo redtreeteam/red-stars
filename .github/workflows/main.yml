@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의 블로그</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFFFFF; /* 흰색 */
+        }
+        header {
+            background: #BFFF00; /* 밝은 노란색 배경 */
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+            position: relative; /* 위치 조정을 위해 추가 */
+        }
+        .header-image {
+            width: 150px; /* 너비 */
+            height: 150px; /* 높이 */
+            position: absolute; /* 위치 조정을 위해 추가 */
+            top: 0px; /* 상단 여백 */
+            left: 20px; /* 왼쪽 여백 */
+            border-radius: 5px; /* 모서리 둥글게 */
+        }
+        nav a {
+            margin: 0 15px;
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        article {
+            background: #ffffff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #35424a;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="" alt="Header Image" class="header-image"> <!-- 이미지 주소 삽입 -->
+        <h1>말랑찐수의 블로그</h1>
+        <nav>
+            <a href="index.html">홈</a>
+            <a href="page1.html" target="_blank">SNS</a> <!-- 새로운 창으로 열기 -->
+            <a href="page2.html">참가인원</a>
+            <a href="page3.html">소개</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <article>
+            <h2>이름</h2>
+            <p>안녕하세요! 저희 이름을 소개하는 사이트에 오시는 걸 환영해요</p>
+        </article>
+
+        <article>
+            <h2>위치</h2>
+            <p>가상위치</p>
+        </article>
+    </div>
+
+</body>
+</html>
