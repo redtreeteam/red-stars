@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의 블로그</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFFFFF; /* 흰색 */
+        }
+        header {
+            background:   #BFFF00; /* 연두색 */
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        article {
+            background: #ffffff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #35424a;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SNS</h1>
+        <nav>
+            <a href="index.html">홈</a>
+            <a href="page1.html">SNS</a>
+            <a href="page2.html">참가인원</a>
+            <a href="page3.html">소개</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <article>
+            <h2>첫 번째 블로그 포스트</h2>
+            <p>안녕하세요! 이것은 첫 번째 블로그 포스트입니다. 여기에 내용을 추가하세요.</p>
+        </article>
+        <img <a href="https://example.com">
+    <a href="https://www.instagram.com/red2024namil/">
+    <img src="https://img.khan.co.kr/news/2022/08/04/news-p.v1.20220804.af375d8f600a48a2baca7cf89c513a03_P1.jpg" alt="예시 이미지" width="300">
+</a>
+
+</a>
+
+
+        </article>
+    </div>
